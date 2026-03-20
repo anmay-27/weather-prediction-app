@@ -2,4 +2,4 @@ streamlit
 numpy
 scikit-learn
 joblib
-tensorflow-cpu
+tensorflow==2.12.0
