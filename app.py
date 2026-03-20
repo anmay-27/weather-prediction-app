@@ -1,8 +1,9 @@
 import streamlit as st
 import numpy as np
 import joblib
-#from tensorflow.keras.models import load_model
-from keras.models import load_model
+from tensorflow.keras.models import load_model
+#from keras.models import load_model
+
 
 # Load model and tools
 model = load_model("weather_nn_model.h5")
